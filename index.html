@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5aeaf4c943.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Joshua Reed!</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>My Landing Page</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, aperiam.
+      </p>
+      <button class="cta-btn" id="open">Contact</button>
+    </header>
+    <div class="container">
+      <h2>What is this page about?</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eligendi
+        deleniti saepe, inventore recusandae sed quos doloremque ullam omnis.
+        Eligendi esse voluptas amet nostrum rem distinctio natus autem officia
+        ab!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sapiente
+        possimus omnis quisquam neque, repellat consequuntur error officiis sint
+        rem!
+      </p>
+      <h2>Tell me More</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit sint
+        pariatur magnam dignissimos ex? Obcaecati minima, exercitationem
+        accusantium dolorum veniam autem ab, pariatur suscipit quasi eligendi
+        ipsa sed eum error hic explicabo nihil quod! Numquam nihil soluta fugit.
+        Porro, alias.
+      </p>
+      <h2>Skills</h2>
+      <ul>
+        <li>Javascript, Python</li>
+        <br />
+        <li>
+          Front-end: HTML5, CSS3, bootstrap, react, react-native, react-router,
+          axios, Redux, Hooks, moment, expo, canvas.js
+        </li>
+        <br />
+
+        <li>
+          Backend: Node.js, express.js, mongoose, mongoDB, bcrypt,
+          express-validator, Json-web token authentication, postman, postgresql,
+          artillery
+        </li>
+        <br />
+        <li>Cloud/hosting Services: Heroku, Surge, Netlify, mongoDB Atlas</li>
+      </ul>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+        ratione voluptatem ut quo, illum numquam eaque cum provident explicabo
+        aliquid doloribus harum soluta, maiores, odio nesciunt saepe minus ab
+        rerum magni libero praesentium beatae atque minima? Commodi officia
+        blanditiis possimus, accusamus impedit tempora cum reprehenderit atque.
+        Expedita error doloribus aliquam dolor similique maiores et eveniet
+        nobis dignissimos veniam quae earum repellendus neque, ad rerum harum
+        voluptatem suscipit eligendi quaerat repudiandae.
+      </p>
+    </div>
+
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Contact Me</h3>
+        </div>
+        <div class="modal-content">
+          <p>Get in touch with me!</p>
+        </div>
+        <form
+          action="mailto:joshualreed93@gmail.com"
+          method="post"
+          enctype="text/plain"
+          class="modal-form"
+        >
+          <div>
+            <label for="name">Name</label>
+            <input type="text" class="name" placeholder="enter Name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" class="email" placeholder="enter Name" />
+          </div>
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="text" class="phone" placeholder="enter Name" />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <input type="text" class="message" placeholder="enter Name" />
+          </div>
+          <input type="submit" value="Submit" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="script"></script>
+</html>
